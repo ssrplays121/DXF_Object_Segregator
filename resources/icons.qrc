@@ -1,0 +1,15 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource>
+        <file>icons/root.png</file>
+        <file>icons/entity.png</file>
+        <file>icons/object.png</file>
+        <file>icons/visible.png</file>
+        <file>icons/hidden.png</file>
+        <file>icons/open.png</file>
+        <file>icons/save.png</file>
+        <file>icons/zoom_in.png</file>
+        <file>icons/zoom_out.png</file>
+        <file>icons/fit_view.png</file>
+    </qresource>
+</RCC>

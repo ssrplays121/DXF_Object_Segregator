@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DXF Object Segregator Configuration Schema",
+  "type": "object",
+  "properties": {
+    "theme": {
+      "type": "string",
+      "enum": ["light", "dark"],
+      "description": "Application theme"
+    },
+    "grid_size": {
+      "type": "integer",
+      "minimum": 10,
+      "maximum": 500,
+      "description": "Size of grid in pixels"
+    },
+    "vertex_tolerance": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Tolerance for vertex comparison"
+    },
+    "auto_save": {
+      "type": "boolean",
+      "description": "Enable automatic saving"
+    },
+    "auto_save_interval": {
+      "type": "integer",
+      "minimum": 60,
+      "description": "Auto-save interval in seconds"
+    }
+  },
+  "required": ["theme", "grid_size", "vertex_tolerance"]
+}

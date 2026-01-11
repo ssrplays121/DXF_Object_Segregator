@@ -1,0 +1,7 @@
+{
+  "theme": "light",
+  "grid_size": 50,
+  "vertex_tolerance": 1e-6,
+  "auto_save": true,
+  "auto_save_interval": 300
+}
