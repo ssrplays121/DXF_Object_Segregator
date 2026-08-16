@@ -2,6 +2,7 @@ DXF Object Segregator
 =====================
 
 A powerful tool for analyzing and segregating objects in DXF (Drawing Exchange Format) files.
+Initially built as part of an internship that did not pan out and this code was never utilized.
 
 Features
 --------
