@@ -1,4 +1,3 @@
-"""
 DXF Object Segregator
 =====================
 
@@ -69,4 +68,3 @@ Author
 ------
 
 DXF Object Segregator Contributors
-"""
